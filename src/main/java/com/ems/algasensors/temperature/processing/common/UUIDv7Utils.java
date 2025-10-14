@@ -1,4 +1,4 @@
-package com.ems.algasensors.temperature.processing;
+package com.ems.algasensors.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;

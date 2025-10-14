@@ -1,12 +1,13 @@
 package com.ems.algasensors.temperature.processing;
 
+import com.ems.algasensors.temperature.processing.common.IdGenerator;
 import org.junit.jupiter.api.Test;
 
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.UUID;
 
-import static com.ems.algasensors.temperature.processing.UUIDv7Utils.extractOffsetDateTime;
+import static com.ems.algasensors.temperature.processing.common.UUIDv7Utils.extractOffsetDateTime;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class UUIDv7Test {
